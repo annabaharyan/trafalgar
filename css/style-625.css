@@ -1,0 +1,141 @@
+              @media(max-width:733px) {
+                  .bt-sec3 {
+                      padding: 0 15px;
+                  }
+                  .article-h {
+                      text-align: center;
+                  }
+                  .article-p {
+                      text-align: center;
+                  }
+                  footer {
+                      display: flex;
+                      flex-wrap: wrap;
+                      justify-content: center;
+                  }
+                  .footer-cols {
+                      width: 50%;
+                  }
+                  .footer-cols:first-child {
+                      margin-right: 0;
+                      width: 50%;
+                      text-align: start;
+                  }
+                  .footer-cols:nth-child(2) {
+                      padding-left: 50px;
+                  }
+                  .footer-cols:nth-child(4) {
+                      padding-left: 50px;
+                  }
+                  .pic {
+                      height: 310px;
+                  }
+              }
+              
+              @media (max-width:680px) {
+                  .pic {
+                      height: 262px;
+                  }
+              }
+              
+              @media (max-width:658px) {
+                  .bt-sec1 {
+                      font-size: 15px;
+                  }
+                  .p-sec1 {
+                      font-size: 17px;
+                      line-height: 25px;
+                  }
+                  .h1-sec1 {
+                      font-size: 32px;
+                      line-height: 47px;
+                  }
+                  .img-sec1 {
+                      margin-top: 130px;
+                  }
+                  .col {
+                      display: flex;
+                      width: 85%;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: space-around;
+                  }
+              }
+              
+              @media (max-width:617px) {
+                  .bt-sec1 {
+                      line-height: 27px;
+                      padding: 0 18px;
+                  }
+                  .head-4 {
+                      font-size: 20px;
+                      line-height: 22px;
+                  }
+                  .mans-name {
+                      font-weight: 700;
+                      font-size: 14px;
+                  }
+                  .position {
+                      font-size: 12px;
+                  }
+                  .mans-desc {
+                      justify-content: flex-start;
+                  }
+                  .persons-pic {
+                      width: 95px;
+                      height: 95px;
+                  }
+                  .persons-pic {
+                      border-radius: 5%;
+                  }
+                  .mans-text {
+                      font-size: 12px;
+                      padding-left: 15px;
+                  }
+                  .images-cont {
+                      width: 95%;
+                  }
+                  .article-h {
+                      padding: 0 3px 0;
+                  }
+                  .article-p {
+                      padding: 0 3px 0;
+                  }
+                  .section1-col {
+                      width: 100%;
+                      text-align: center;
+                  }
+                  .section1 {
+                      flex-direction: column;
+                  }
+                  .img-sec1 {
+                      height: 260px;
+                      margin-top: 20px;
+                  }
+                  .section3 {
+                      flex-direction: column;
+                      justify-content: center;
+                  }
+                  .sec3-col {
+                      width: 100%;
+                  }
+                  .sec3-img2,
+                  .sec3-img1 {
+                      height: 260px;
+                      margin-top: 10px;
+                      width: 100%;
+                  }
+              }
+              
+              @media (max-width:529px) {
+                  .bt-sec3 {
+                      line-height: 22px;
+                  }
+                  .r2 {
+                      flex-direction: column;
+                      width: 100%;
+                  }
+                  .r2>.col-sec4 {
+                      width: 100%;
+                  }
+              }

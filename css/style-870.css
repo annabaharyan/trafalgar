@@ -1,0 +1,111 @@
+        @media (max-width: 870px) {
+            .navbar {
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+            .navbar>li {
+                margin-bottom: 10px;
+            }
+            nav>ul :first-child {
+                margin-top: 10px;
+            }
+            body {
+                margin-top: 0;
+            }
+            main {
+                margin-top: 220px;
+            }
+            header {
+                height: 220px
+            }
+            .navigation .menu {
+                opacity: 1;
+                position: absolute;
+                right: 123px;
+                top: 90px;
+                color: #233348;
+                font-size: 24px;
+                z-index: 1;
+            }
+            .navigation:hover .navbar {
+                opacity: 1;
+            }
+            .navigation:hover .menu {
+                opacity: 0;
+            }
+            .navbar {
+                opacity: 0;
+            }
+            .section2 {
+                margin: 19px auto;
+            }
+            .section1 {
+                margin: 0px auto;
+            }
+            .col {
+                width: 40%;
+                padding: 11px 11px;
+            }
+            .section3 {
+                margin-top: 75px;
+            }
+            .h-sec2 {
+                font-size: 29px;
+                line-height: 42px;
+            }
+            .r2>.col-sec4 {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .head-4 {
+                font-size: 31px;
+                line-height: 35px;
+                text-align: center;
+            }
+            .section4 {
+                width: 100%;
+                margin: 62px auto 0px;
+                padding: 0 12px;
+            }
+            .mans-text {
+                font-size: 16px;
+            }
+            .pic {
+                height: 373px;
+            }
+            .persons-pic {
+                width: 105px;
+                height: 105px;
+            }
+            .images-cont {
+                width: 80%;
+                margin: 10px auto;
+            }
+            footer {
+                padding: 23px 28px;
+            }
+            .footer-cols:first-child {
+                width: 35%;
+                margin-right: 50px;
+            }
+            .footer-p {
+                line-height: 20px;
+                font-size: 12px;
+            }
+        }
+        
+        @media (max-width: 801px) {
+            .bt-sec1 {
+                padding: 0px 15px;
+            }
+            .bt-sec2 {
+                font-size: 16px;
+                line-height: 50px;
+                padding: 0 36px;
+            }
+        }
